@@ -15,16 +15,36 @@
     .font-roboto{
         font-family: 'Roboto', sans-serif;
     }
-    
+    .text-shadow{
+        text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    }.line-shadow{
+        box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.5);
+    }
 </style>
 
 
 </head>
-<body>
+<body class="font-roboto ">
     <!-- <h1 class="h-3 text-2xl font-bold ">hello word</h1> -->
-    <header>
+    <header class="m-5 ">
+        <section class="flex justify-between mx-3 my-6">
+            <div>
+                <img src="./style/LOGO_GLOBAL_JEWELERS_edited.webp" alt="logo">
+            </div >
+            <div class="text-center  text-xl font-extrabold flex flex-col gap-4">
+                <p class=" text-4xl text-shadow">We Buy Gold and Pay CASH !</p>
+                <p class="text-3xl text-shadow">Call Us <span>954-605-6206</span></p>
+                <p class="text-xl font-medium text-shadow">8000 W. Broward Blvd Plantation , FL 33388</p>
+            </div>
+            <div class="flex gap-4  ">
+                <div class="flex gap-2 mr-2 m-"><img src="./style/united-states.png" alt="us" class="w-6 h-6"> <p>English</p></div>  
+                <div class="border-l-2 border-black h-7"></div>
+                <div class="flex gap-2"><img src="./style/flag.png" alt="spanish" class="w-6 h-6" > Spanish</div>
+            </div>
+        </section>
+        
         <nav>
-            <ul class="flex justify-between mx-3 font-extrabold font-roboto text-xl ">
+            <ul class="flex justify-between mx-3 font-normal text-xl mb-4">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">OUR SERVICES</a></li>
                 <li><a href="#">WE BUY DIAMOND/S</a></li>
