@@ -51,7 +51,11 @@
         </section>
 
         <nav>
-            <ul class="flex justify-between mx-3 font-normal text-xl mb-4">
+            <svg class="w-6 h-6 lg:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+              </svg>
+              
+            <ul class="hidden lg:flex justify-between mx-3 font-normal text-xl mb-4">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">OUR SERVICES</a></li>
                 <li><a href="#">WE BUY DIAMOND/S</a></li>
@@ -65,21 +69,21 @@
     </header>
 
     <main>
-        <section class="py-8 text-4xl text-white text-center h-[380px] bg-slate-500 space-y-7">
+        <section class="py-8 text-4xl text-white text-center h-auto lg:h-[380px] bg-slate-500 space-y-7">
             <p>We Pay Top Prices In Fort Lauderdale</p>
             <p>ooking To Earn Some Extra Cash? We Buy Everything From Old/Fine Watches, Gold, Antique Jewelry, Diamonds,
                 Coins And Even Your Broken Jewelry !</p>
-            <p class="w-[25%] m-auto bg-yellow-400 p-3 text-black font-bold">WE PAY CASH!</p>
+            <p class="w-[65%] lg:w-[25%] m-auto bg-yellow-400 p-3 text-black font-bold">WE PAY CASH!</p>
             <button class="text-xl bg-sky-600 px-6 rounded py-1 font-medium"><a href="#">SCHEDULE AN
                     APPOINTMENT</a></button>
         </section>
 
-        <section class="  flex ">
-            <div class="w-[58%]">
+        <section class="  flex flex-col ">
+            <div class=" lg:w-[58%]">
                 <video src="./style/Fort Lauderdale - Gold Buyers.mp4" autoplay muted></video>
 
             </div>
-            <div class="w-[42%] h-[100%] text-shadow text-center py-10">
+            <div class="lg:w-[42%] h-[100%] text-shadow text-center py-10">
                 <h1 class="font-light text-2xl mb-4">WE SERVICES ALL FORT LAUDERDALE AREA !</h1>
                 <p class="text-xl px-9  text-center ">Here at Global Jewelers we pay top dollar for your gold, watches,
                     jewelry and diamonds! When using our services, you can trust that we will appraise and purchase your
@@ -90,10 +94,10 @@
 
             </div>
         </section>
-        <section class="flex flex-1 h-[400px]">
+        <section class="flex flex-col lg:flex-row flex-1 h-auto lg:h-[400px]">
 
-            <div class="w-[30%]"> <img class="h-[100%]" src="./style/Screenshot 2024-02-10 171346.png" alt=""></div>
-            <div class="w-[20%] text-shadow p-4">
+            <div class="w-[100%] lg:w-[30%]"> <img class="h-[100%]" src="./style/Screenshot 2024-02-10 171346.png" alt=""></div>
+            <div class="text-center space-y-3 lg:w-[20%] text-shadow p-4">
                 <h1 class="text-4xl font-bold">We Buy ..</h1>
                 <p class="text-xl">Gold 10K, 14K, 18K, 22K, 24K </p>
                 <ul class="">
@@ -104,26 +108,26 @@
 
                 </ul>
             </div>
-            <div class="w-[30%]">
+            <div class="lg:w-[30%]">
                 <img class="h-[100%]" src="./style/Screenshot 2024-02-10 171403.png" alt="">
 
             </div>
-            <div class="w-[20%]">
+            <div class="mb-5 lg:w-[20%]">
                 <h1>Failed to connect to MySQL: Permission denied</h1>
             </div>
         </section>
-        <section class=" flex h-[420px]">
+        <section class=" flex flex-col lg:flex-row h-auto lg:h-[420px]">
 
 
 
-            <div class="w-[33%] h-[100%] flex flex-col justify-center text-center space-y-3 bg-emerald-300 p-4 ">
+            <div class="lg:w-[33%] h-[100%] flex flex-col justify-center text-center space-y-3 bg-emerald-300 p-4 ">
                 <h1 class="text-8xl font-extrabold">1.</h1>
                 <h1 class="text-3xl font-light text-shadow">SCHEDULE A VISIT</h1>
                 <p class="text-xl">Call us now to schedule your appointment today in our location located in Plantation.
                     Call today <br> <span class="text-blue-700 underline">954-605-6206</span></p>
 
             </div>
-            <div class="w-[33%] h-[100%] flex flex-col justify-between text-center bg-gray-300  ">
+            <div class="lg:w-[33%] h-[100%] flex flex-col justify-between text-center bg-gray-300  ">
 
                 <h1 class=" text-center mt-5 text-4xl">HOW IT WORKS</h1>
                 <div class=" p-5 space-y-3">
@@ -137,7 +141,7 @@
 
             </div>
 
-            <div class="w-[33%] h-[100%] flex flex-col justify-center text-center space-y-3 bg-yellow-300 p-4 ">
+            <div class="lg:w-[33%] h-[100%] flex flex-col justify-center text-center space-y-3 bg-yellow-300 p-4 ">
                 <h1 class="text-8xl font-extrabold">3.</h1>
                 <h1 class="text-3xl font-light text-shadow">GET PAID TODAY</h1>
                 <p class="text-xl">Need quick cash? We will pay you cash on spot for your jewelry and valuables. Call us
@@ -195,7 +199,7 @@
     </main>
 
     <footer>
-        <section class="h-[350px] space-y-4 text-white bg-gray-500">
+        <section class="h-auto lg:h-[350px] space-y-4 text-white bg-gray-500">
 
             <div class=" text-4xl text-center p-3">
                 <h1>Location and Areas of Service</h1>
@@ -213,7 +217,7 @@
                 <a href="#">Fort Lauderdale ,</a> <a href="#">Fort Lauderdale ,</a> <a href="#">Fort Lauderdale ,</a>
             </div>
 
-            <div class="flex gap-2  justify-center text-lg text-shadow">
+            <div class="w-[90%] m-auto lg:w-[100%] flex flex-col lg:flex-row gap-2  justify-center text-lg text-shadow">
                 <h1 class= " text-yellow-400 ">Store Hours: </h1>
                 <p class=" space-x-1">
                     <span class="italic ">Monday </span> <span class="font-bold text-sky-500">11am-9pm</span>
@@ -226,7 +230,7 @@
                 </p>
             </div>
             <hr>
-            <div class="w-[80%] text-xl flex justify-between mx-auto py-3  font-bold text-shadow">
+            <div class="w-[80%]  lg:text-xl flex  flex-wrap lg:flex-nowrap justify-between mx-auto py-3  font-bold text-shadow">
                 <p><a href="#">Copywriters@GlobalJewelers</a></p>
                 <p><a href="#">Privacy Policy</a></p>
                 <p><a href="#">Terms Of Use</a></p>
@@ -238,6 +242,7 @@
 
         </section>
 
+        <!-- fix part -->
         <section>
 
             <button
